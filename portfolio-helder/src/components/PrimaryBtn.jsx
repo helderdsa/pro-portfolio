@@ -1,13 +1,10 @@
 import React from "react";
 import "../styles/primaryBtnStyle.css";
 
-class PrimaryBtn extends React.Component {
-  render() {
-    const { btnText } = this.props
-    return (
-      <button className="primary-btn">{btnText}</button>
-    )
-  }
+const PrimaryBtn = (props) => {
+  return (
+    <button className="primary-btn">{props.btnText}</button>
+  )
 }
 
 export default PrimaryBtn;
