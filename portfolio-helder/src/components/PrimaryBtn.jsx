@@ -5,7 +5,7 @@ class PrimaryBtn extends React.Component {
   render() {
     const { btnText } = this.props
     return (
-      <button class="btn">{btnText}</button>
+      <button className="primary-btn">{btnText}</button>
     )
   }
 }
