@@ -4,6 +4,10 @@ import LoadingAnimaion from "../components/LoadingAnimaion";
 import PrimaryBtn from "../components/PrimaryBtn";
 import SecondaryBtn from "../components/SecondaryBtn";
 import SkillDisplay from "../components/SkillDisplay";
+import NavBar from "../components/NavBar";
+
+import heroImg from '../imgs/ftsite.png'
+import '../styles/Home.css'
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -12,9 +16,20 @@ const Home = () => {
     <div>
       {loading ? (
         <LoadingAnimaion />
-      ) : (
+        ) : (
         <div>
-          <h1>Inicio de uma história</h1>
+          <NavBar />
+          <div className="quemSou">
+            <img src={ heroImg } alt="hero Img" className="heroImg" />
+            <div className="texto">
+              <h4 className="cta">
+                OLÁ!!<img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/waving-hand_1f44b.png" alt="hand wave gif" width="37px"></img>
+                <br />
+                HELDER DANIEL AQUI
+              </h4>
+              <h6 className="ctaSec">DEV FRONT-END E UX DESIGNER</h6>
+            </div>
+          </div>
           <PrimaryBtn btnText={"Primary"} />
           <SecondaryBtn btnText={"Secondary"} />
           <SkillDisplay />

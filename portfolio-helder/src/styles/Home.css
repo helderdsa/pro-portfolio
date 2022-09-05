@@ -1,0 +1,49 @@
+body {
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 89px;
+}
+
+h2 {
+  font-size: 67px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 37px;
+}
+
+h5 {
+  font-size: 28px;
+}
+
+h6 {
+  font-size: 21px;
+}
+
+.quemSou {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+}
+.texto {
+  padding-top: 150px;
+}
+.heroImg {
+  height: 500px;
+  width: 500px;
+}
+.cta {
+  margin-bottom: 0px;
+}
+.ctaSec {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
