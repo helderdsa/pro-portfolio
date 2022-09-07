@@ -9,9 +9,11 @@
   padding: 12px 8px 0px 8px;
   transition: all 0.3s ease-in-out;
 }
+
 .skill:hover{
   box-shadow: 0 0 32px #F80040;
 }
+
 .img-skill{
   margin-top:-52px;
   margin-left: 32px;
@@ -24,6 +26,7 @@
   box-shadow: 0 0 0px #F80040;
   transition: all 0.3s ease-in-out;
   }
+
 .skill:hover .img-skill{
   box-shadow: 0 0 32px #F80040;
   width: 50px;
@@ -32,6 +35,7 @@
   margin-bottom: -10px;
   margin-left: 27px;
 }
+
 .bar{
   background-color: #150941;
   height: 0px;
@@ -40,21 +44,25 @@
   border-radius: 16px 16px 0px 0px;
   transition: all 0.3s ease-in-out;
 }
+
 .skill:hover .bar{
   height: 10px;
   margin-top: -10px;
 }
+
 .skill-name{
   font-size: 21px;
   margin: 8px 0px 0px 0px;
   padding: 0px 4px;
   color: #150941;
-
 }
+
 .skill-description{
   text-align: left;
-  padding: 0px 12px;
-  margin: 4px 0px 16px 0px;
+  padding: 8px 12px;
+  margin: 8px 0px 16px 0px;
   color: #150941;
+  background-color: white;
+  border-radius: 8px;
   font-weight: 500;
 }

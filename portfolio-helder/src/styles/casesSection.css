@@ -1,0 +1,28 @@
+.main-cases-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #150941;
+  background-color: #F80040;
+  padding: 50px;
+}
+
+.cases-imgs {
+  transform: skew(10deg);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+}
+
+.case-img {
+  width: 300px;
+}
+
+.case-description {
+  width: 500px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+}
