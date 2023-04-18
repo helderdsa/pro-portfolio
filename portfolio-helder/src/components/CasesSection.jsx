@@ -2,6 +2,7 @@ import React from "react";
 
 import caseimg from '../imgs/Wallpaper_06.png'
 import '../styles/casesSection.css'
+import SecondaryBtn from "./SecondaryBtn";
 const CasesSection = () => {
   return (
     <main className="main-cases-div">
@@ -18,6 +19,7 @@ const CasesSection = () => {
           <p>
           Aenean quis dolor nec dui vehicula efficitur vel at erat. Aenean blandit imperdiet aliquam. Sed quis efficitur diam. Donec tempor sem sed condimentum scelerisque. In non rhoncus erat. Maecenas quis mattis sapien. Quisque mattis in dui sit amet finibus. Suspendisse potenti. Praesent vel nisl tincidunt, sodales sem eu, suscipit leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam interdum justo lacinia neque porta posuere ut in leo. Suspendisse consectetur dui a dolor finibus, vel congue lectus placerat. Maecenas condimentum sollicitudin dolor nec ullamcorper. Pellentesque at eleifend augue.
           </p>
+          <SecondaryBtn btnText={"Secondary"} />
       </section>
     </main>
   )

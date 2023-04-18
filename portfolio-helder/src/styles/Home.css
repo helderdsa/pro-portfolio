@@ -30,3 +30,8 @@ h5 {
 h6 {
   font-size: 21px;
 }
+
+.skills-section {
+  display: flex;
+  flex-wrap: wrap;
+}
