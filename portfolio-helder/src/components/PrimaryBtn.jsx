@@ -1,4 +1,3 @@
-import React from "react";
 import "../styles/primaryBtnStyle.css";
 
 const PrimaryBtn = (props) => {

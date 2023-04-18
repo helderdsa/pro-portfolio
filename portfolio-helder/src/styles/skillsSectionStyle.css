@@ -1,4 +1,29 @@
-.skill{
+.skills-section {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 50px; 
+}
+
+.skills-section h4 {
+  color: white;
+  margin: 24px auto;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  margin: 4px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill:hover {
+  transform: scale(1.1);
+}
+/* .skill{
   width: 360px;
   display: flex;
   justify-content: left;
@@ -65,4 +90,4 @@
   background-color: white;
   border-radius: 8px;
   font-weight: 500;
-}
+} */
