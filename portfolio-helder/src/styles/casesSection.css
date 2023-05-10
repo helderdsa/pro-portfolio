@@ -7,22 +7,43 @@
   padding: 50px;
 }
 
-.cases-imgs {
-  transform: skew(10deg);
-  overflow-y: scroll;
-  overflow-x: hidden;
-  width: 350px;
-  height: 500px;
-  text-align: center;
-}
-
 .case-img {
-  width: 300px;
+  height: 250px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.30s ease-in-out;
 }
 
-.case-description {
-  width: 500px;
-  background-color: white;
-  padding: 16px;
-  border-radius: 8px;
+.case-name {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.case-name h6 {
+  margin: 0px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.case-resume {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.case-resume p {
+  margin: 0px;
+  color: white;
+}
+
+.case-body {
+  padding: 8px;
+  width: 40%;
+}
+
+.case-img:hover {
+  transform: scale(1.1);
 }
