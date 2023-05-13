@@ -1,12 +1,11 @@
-import PrimaryBtn from './components/PrimariBtn';
-import './App.css';
-
+import React from 'react';
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home'
 function App() {
   return (
-    <div className="App">
-      <h1>Inicio de uma história</h1>
-      <PrimaryBtn btnText="btn text" />
-    </div>
+    <Routes>
+      <Route exact path="/" element={ <Home/> } />
+    </Routes>
   );
 }
 

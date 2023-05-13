@@ -1,0 +1,51 @@
+.main-cases-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #150941;
+  background-color: #F80040;
+  padding: 50px;
+}
+
+.case-img {
+  height: 250px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.30s ease-in-out;
+}
+
+.case-name {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 8px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.case-name h6 {
+  margin: 0px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.case-resume {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 16px;
+  border-radius: 0px 0px 16px 16px;
+  margin-bottom: 12px;
+}
+
+.case-resume p {
+  margin: 0px;
+  color: white;
+  text-indent: 1em;
+}
+
+.case-body {
+  padding: 8px;
+  width: 40%;
+}
+
+.case-img:hover {
+  transform: scale(1.1);
+}

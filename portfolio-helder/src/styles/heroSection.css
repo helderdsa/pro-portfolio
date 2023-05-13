@@ -1,0 +1,28 @@
+.quemSou {
+  margin: 50px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: left;
+  color: white;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heroImg {
+  height: 500px;
+  width: 500px;
+}
+
+.cta {
+  margin: 0px;
+}
+
+.ctaSec {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
