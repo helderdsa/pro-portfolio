@@ -1,3 +1,5 @@
+import case1img from '../imgs/appDeReceitas.png'
+
 export const skills = [
   { name: 'VSCode', image: 'https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white' },
   { name: 'Hoppscotch', image: 'https://img.shields.io/badge/Hoppscotch-31C48D?style=for-the-badge&logo=hoppscotch&logoColor=white' },
@@ -19,4 +21,13 @@ export const skills = [
   { name: 'Jest', image: 'https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red' }
 ]
 
-export const projects = []
+export const projects = [
+  {
+    image: case1img,
+    resume: "O projeto App de Receitas foi desenvolvido em conjunto com outros quatro alunos do curso de programação da Trybe. O objetivo do projeto era criar uma aplicação web capaz de fornecer aos usuários diversas receitas culinárias, permitindo que eles pesquisem por ingredientes e filtros específicos. Durante o desenvolvimento, utilizamos tecnologias como React, Hooks e Redux, além de ferramentas como Git e Trello para facilitar a comunicação e organização do trabalho em equipe. Ao final do projeto, conseguimos entregar uma aplicação funcional e intuitiva, capaz de atender às necessidades dos usuários e aplicar os conceitos aprendidos ao longo do curso. Foi uma experiência enriquecedora trabalhar em equipe e colocar em prática nossos conhecimentos em programação.",
+    name: "app de receitas",
+    skillsIds: [4, 5, 6, 7, 8],
+    github: "https://github.com/helderdsa/ProjetoAppReceitas",
+    live: "https://dancing-naiad-b13c4d.netlify.app/"
+  },
+]

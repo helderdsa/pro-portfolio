@@ -30,13 +30,15 @@
 
 .case-resume {
   background: rgba(0, 0, 0, 0.6);
-  padding: 8px;
+  padding: 16px;
   border-radius: 0px 0px 16px 16px;
+  margin-bottom: 12px;
 }
 
 .case-resume p {
   margin: 0px;
   color: white;
+  text-indent: 1em;
 }
 
 .case-body {

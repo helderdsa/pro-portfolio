@@ -33,3 +33,21 @@
 .modal-skills:hover {
   transform: scale(1.1);
 }
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-buttons button {
+  margin: 8px;
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 100%;
+}
+
+.modal-button-icon {
+  width: 32px;
+  height: 32px;
+}

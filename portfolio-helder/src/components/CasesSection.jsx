@@ -1,14 +1,22 @@
-import caseimg from '../imgs/Wallpaper_06.png'
-import '../styles/casesSection.css'
-import Case from './Case';
+import { projects } from "../data/data";
+import "../styles/casesSection.css";
+import Case from "./Case";
 
 const CasesSection = () => {
   return (
     <main className="main-cases-div">
-      <Case image={caseimg} resume={"resume"} name={"case 1"} skillsIds={[4, 5, 6, 7, 8]}/>
-      <Case image={caseimg} resume={"resume"} name={"case 2"} skillsIds={[10, 11, 12, 13, 14]}/>
+      {projects.map((project) => (
+        <Case
+          image={project.image}
+          resume={project.resume}
+          name={project.name}
+          github={project.github}
+          live={project.live}
+          skillsIds={project.skillsIds}
+        />
+      ))}
     </main>
-  )
-}
+  );
+};
 
 export default CasesSection;

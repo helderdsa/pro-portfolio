@@ -11,7 +11,7 @@
   z-index: 9999;
 }
 
-a{
+.nav a{
   margin-left: 16px;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -19,20 +19,20 @@ a{
   text-transform: uppercase;
 }
 
-a:link {
+.nav a:link {
   color: #F80040;
 }
 
-a:visited {
+.nav a:visited {
   color: #F80040;
 }
 
-a:hover {
+.nav a:hover {
 color: #F80040;
 box-shadow: 0 16px 8px -6px #F80040;
 }
 
-a:active {
+.nav a:active {
 color: #F80040;
 box-shadow: 0 16px 8px -6px #F80040;
 }
