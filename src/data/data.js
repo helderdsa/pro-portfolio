@@ -28,6 +28,6 @@ export const projects = [
     name: "app de receitas",
     skillsIds: [4, 5, 6, 7, 8],
     github: "https://github.com/helderdsa/ProjetoAppReceitas",
-    live: "https://dancing-naiad-b13c4d.netlify.app/"
+    live: "https://helder-app-receitas.netlify.app/"
   },
 ]
