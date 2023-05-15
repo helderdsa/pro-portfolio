@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home'
 function App() {
   useEffect(() => {
-    document.title = 'Helder Daniel ';
+    document.title = 'Helder Daniel';
   }, [])
 
   return (
